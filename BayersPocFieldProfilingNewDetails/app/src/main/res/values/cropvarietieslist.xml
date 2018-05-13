@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cropvarieties">
+        <item>  Select    </item>
+        <item>  OilSeeds  </item>
+        <item>  Pulses    </item>
+        <item>  Grains   </item>
+        <item>  Spices   </item>
+        <item>  Kharif   </item>
+        <item>  Rabi     </item>
+    </string-array>
+
+
+
+
+</resources>
