@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="rohit.com.semicircleprogressbar.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semi Circle Progress Bar"
+        android:gravity="center"/>
+   <!-- <ProgressBar
+        android:id="@+id/progressBar_cyclic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:progressDrawable="@drawable/circle"
+        android:progress="50"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <rohit.com.semicircleprogressbar.SemiCircleProgressBarView
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#00bfff"/>
+            <TextView
+            android:id="@+id/textValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00bfff"
+            android:layout_gravity="center"
+            android:text="Semi Circle Progress Bar"
+            android:textColor="#ffffff"
+            android:gravity="center"/>
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>
