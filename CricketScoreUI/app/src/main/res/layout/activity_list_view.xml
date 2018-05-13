@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="rohit.com.cricketscoreui.ListViewActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_view_heading"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true" />
+        <Button
+            android:id="@+id/button_alltasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="My Tasks"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="Please Select Your Task From Below List"/>
+        <ListView
+            android:id="@+id/task_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidAccessContentProvider</string>
+    <string name="display_dictoinary_provider_words">DISPLAY DICTOINARY PROVIDER WORDS</string>
+    <string name="add_new_provider_content">ADD NEW PROVIDER CONTENT</string>
+    <string name="honesty">Honesty</string>
+    <string name="enter_word">Enter word</string>
+    <string name="enter_meaning">Enter meaning</string>
+    <string name="add_dictionary_word">ADD DICTIONARY WORD</string>
+    <string name="add_to">Add to Content Provider</string>
+</resources>

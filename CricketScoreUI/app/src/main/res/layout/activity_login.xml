@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rohit.com.cricketscoreui.LoginActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorHint">
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/textColor" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_email"
+            android:textColorHint="@color/colorHint"
+
+            >
+            <!--<EditText android:id="@+id/inputSearch"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:DrawableLeft="@android:Drawable/ic_menu_search"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@android:color/white"
+                android:hint="Search product.."
+                android:inputType="textVisiblePassword"/>-->
+            <rohit.com.cricketscoreui.CustomEditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:hint="@string/hint_password"
+                android:drawableRight="@android:drawable/ic_menu_view"
+                android:inputType="textPassword"
+                android:textColor="@color/textColor"
+            />
+            <TextView
+               android:id="@+id/TextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:hint="@string/hint_password"
+                android:layout_below="@+id/editTextPassword"
+                android:textColor="@color/textColor"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            android:background="@color/buttoncolor"
+            android:text="Login"
+            android:textColor="@color/textColor"
+            android:layout_below="@+id/layout_password"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:maxLines="1"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:text="Simple application that shows how to use marquee, with a long text"
+            android:layout_below="@+id/button"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="49dp"
+            android:id="@+id/textView" />
+
+    </RelativeLayout>
+
+</LinearLayout>
