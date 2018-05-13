@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DemoUsingIntents</string>
+    <string name="permdesc_deadlyActivity">PermissionRequired</string>
+</resources>
