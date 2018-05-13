@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_list_remove.png",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\drawable-mdpi\\ic_list_remove.png"
+    },
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_photo.png",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\drawable-mdpi\\ic_action_photo.png"
+    },
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_new.png",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\drawable-mdpi\\ic_action_new.png"
+    },
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_info.png",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\drawable-mdpi\\ic_action_info.png"
+    }
+]

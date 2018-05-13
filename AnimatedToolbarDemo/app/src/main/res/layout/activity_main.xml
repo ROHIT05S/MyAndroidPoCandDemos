@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rohit.com.animatedtoolbardemo.MainActivity">
+
+    <Button
+        android:id="@+id/animated_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animated Toolbar"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/discroll_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discroll View"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/expandable_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expandable Layout"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/ripple_effect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ripple Effect"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"/>
+
+
+
+</LinearLayout>

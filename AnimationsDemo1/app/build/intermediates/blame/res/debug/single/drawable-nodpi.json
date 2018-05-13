@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\image1.png",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\drawable-nodpi\\image1.png"
+    },
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\image2.png",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\drawable-nodpi\\image2.png"
+    },
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\thumb2.png",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\drawable-nodpi\\thumb2.png"
+    },
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\thumb1.png",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\drawable-nodpi\\thumb1.png"
+    }
+]

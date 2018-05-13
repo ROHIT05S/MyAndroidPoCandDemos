@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_out.xml",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\animator\\card_flip_right_out.xml"
+    },
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_in.xml",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\animator\\card_flip_left_in.xml"
+    },
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_in.xml",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\animator\\card_flip_right_in.xml"
+    },
+    {
+        "merged": "D:\\PocsFolder\\AnimationsDemo1\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_out.xml",
+        "source": "D:\\PocsFolder\\AnimationsDemo1\\app\\src\\main\\res\\animator\\card_flip_left_out.xml"
+    }
+]
